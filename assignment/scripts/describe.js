@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as name.
+// If the name is Mary, the command returns Hi, Mary.
+// Else if the name is anything else, command returns How do you do?
+//we console.log 'How do you do'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create variables for secret and code that give two options for the secret and the code number
+// We give a possible option and times the code, before giving the else (other) option
+// If the code equals 123 the secret is super, if it is less than 250 the secret is duper.
+// we console.log(duper)
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we created a variable isStudent as a boolean true or false, followed by letting age equal 34 and the zipcode be 55407.
+// then a statement saying if they are a student and their zip is less than 8000, 'You're a student on the West Coast!'
+// followed by a else if they aren't a student and younger than 30, 'What are your hobbies?'
+// A third option of simply if a student 'Welcome to Prime' and a 'How about the weather' if none options are met.
+// we console.log('You're a student on the West Coast!') 
 
 //CODE
 /*
@@ -134,6 +135,10 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// Fix colorOne and colorTwo, red and blue are switched around from what the instructions say they should be
+// should be colorOne = 'blue' and colorTwo = 'red'
+
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,6 +151,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+//Fix time is set to the wrong measure with less than or equal to 4
+// should be if (temp > 39 || time === 4)
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -166,4 +174,5 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
+// Fix the minAge is set to less than or equal to age
+// should be if(minAge >= age)
