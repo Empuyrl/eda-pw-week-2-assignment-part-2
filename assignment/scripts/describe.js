@@ -152,8 +152,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-//Fix time is set to the wrong measure with less than or equal to 4
-// should be if (temp > 39 || time === 4)
+//Fix the if statement to be a && (and) statement instead of a || (or) one.
+// should be if (temp > 39 && >= 4)
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
