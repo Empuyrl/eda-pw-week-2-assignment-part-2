@@ -71,10 +71,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // we created a variable isStudent as a boolean true or false, followed by letting age equal 34 and the zipcode be 55407.
-// then a statement saying if they are a student and their zip is less than 8000, 'You're a student on the West Coast!'
+// then a statement saying if they are a student and their zip is greater than 8000, 'You're a student on the West Coast!'
 // followed by a else if they aren't a student and younger than 30, 'What are your hobbies?'
 // A third option of simply if a student 'Welcome to Prime' and a 'How about the weather' if none options are met.
-// we console.log('You're a student on the West Coast!') 
+// we console.log('Welcome to Prime') 
 
 //CODE
 /*
