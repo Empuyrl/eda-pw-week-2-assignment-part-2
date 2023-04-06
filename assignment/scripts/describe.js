@@ -136,7 +136,9 @@ let colorTwo = 'blue';
 let mix = true;
 
 // Fix colorOne and colorTwo, red and blue are switched around from what the instructions say they should be
-// should be colorOne = 'blue' and colorTwo = 'red'
+// colorTwo is also missing from being assigned down below in order to make purple with colorOne
+// should be colorOne = 'blue' and colorTwo = 'red';
+// should be colorOne + colorTwo = 'purple';
 
 
 if (mix === true) {
