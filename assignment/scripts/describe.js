@@ -29,7 +29,7 @@ if (number >= 2) {
 // We make a variable called name and set it to Dane as name.
 // If the name is Mary, the command returns Hi, Mary.
 // Else if the name is anything else, command returns How do you do?
-//we console.log 'How do you do'
+//we console.log ('How do you do')
 
 //CODE
 /*
@@ -47,8 +47,8 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create variables for secret and code that give two options for the secret and the code number
 // We give a possible option and times the code, before giving the else (other) option
-// If the code equals 123 the secret is super, if it is less than 250 the secret is duper.
-// we console.log(duper)
+// If the code equals 123 the secret is super, if it is greater than 250 the secret is duper.
+// we console.log(super)
 
 //CODE
 /*
